@@ -1,0 +1,165 @@
+03.05 9:02 AM
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shashank's Blog</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        .image-column {
+            max-width: 300px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .image-column img {
+            display: block;
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        body {
+            font-family: 'Times New Roman', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #622569;
+            color: #000000;
+        }
+
+        header {
+            text-align: center;
+            padding: 70px 0;
+            background-color: #b8a9c9;
+            color: #sss;
+            margin-bottom: 30px;
+        }
+
+        nav {
+            background-color: #622569;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #622569;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #622569;
+        }
+
+        section {
+            background-color: #b8a9c9;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        h2,
+        h3 {
+            color: #622569;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Shashank's Blog</h1>
+    </header>
+
+    <div class="container">
+        <!-- Add Bootstrap tabs for navigation -->
+        <ul class="nav nav-tabs" id="myTabs">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#contact">Contact</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane fade show active" id="about">
+                <section>
+                    <h2>About Myself :</h2>
+                    <div class="image-column">
+                        <img src="profile.jpg" alt="Shashank's Photo">
+                    </div>
+                    <p>Welcome to Shashank's blog! My name is Shashank Goud, and I'm an undergraduate student at MRCET who is interested in Artificial Intelligence. This blog serves as a creative outlet for me, combining academic writing with personal reflections.I have done my schooling and intermediate in St.Peter's High school and Sri Chaitanya jr college. Up-to-date i have secured 75% in B-tech. My hobbies are listening music, watching Sci-fic and Horror movies. We can share each other ideas and try to improve our knowledge as well. Shashank's Blog is more than just a venue; it's a community for students, curious minds, and anybody looking for a balance of academics and personal development. Let us experience the different mindsets by combining together. Thank you for taking part in this journey!</p>
+                </section>
+            </div>
+
+            <div class="tab-pane fade" id="contact">
+                <section class="contact-info">
+                    <h2>Contact Information :</h2>
+                    <ul>
+                        <li><strong>Phone number:</strong> 7032191856</li>
+                        <li><strong>Email:</strong> <a href="mailto:your.email@example.com">mshashankgoud64@gmail.com</a></li>
+                        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/yourprofile" target="_blank">https://www.linkedin.com/in/m-shashank-goud-48538b2b5</a></li>
+                    </ul>
+                </section>
+            </div>
+
+            <div class="tab-pane fade" id="skills">
+                <section class="skills ">
+                    <h2>Skills :</h2>
+                    <ul>
+                        <li><strong>Soft Skills:</strong> </li>
+                        <li>Team-supporter</li>
+                        <li>Time management</li>
+                        <li>Problem solving.</li>
+                        <li><strong>Technical Skills:</strong> </li>
+                        <li>python</li>
+                        <li>C</li>
+                        <li>java</li>
+                        <li>Html</li>
+                    </ul>
+                </section>
+            </div>
+
+            <div class="tab-pane fade" id="projects">
+                <section>
+                    <h2>Projects :</h2>
+                    <article>
+                        <h3>Health Dieases Predection System :</h3>
+                        <p><strong>Role:</strong> backend</p>
+                        <p><strong>Description:</strong>A Health Diseases Prediction System is a computer-based application or platform designed to predict the likelihood of a person developing certain health diseases or conditions based on various input factors. These systems typically leverage data analysis, machine learning algorithms, and medical knowledge to make predictions. Health Diseases Prediction Systems have the potential to assist healthcare professionals in early detection and prevention of diseases, leading to more proactive and personalized healthcare. However, it's crucial to ensure ethical use of data, maintain transparency, and involve healthcare professionals in the development and deployment of such systems. Additionally, regular updates and validations are necessary to keep the predictive models accurate and up-to-date with evolving medical knowledge.</p>
+                    </article>
+                    <article>
+                        <h3>Visualising and forecasting stocks using Dash :</h3>
+                        <p><strong>Role:</strong> backend
+                        </p>
+                        <p><strong>Description:</strong>Visualizing and Forecasting are integral components of data analysis. Visualization aids in understanding, while forecasting provides insights into potential future trends. The combination of these practices supports informed decision-making across various domains. Implementing visualizations and forecasting in real-time scenarios requires a combination of advanced analytics, machine learning, and user-friendly interfaces to empower decision-makers with actionable insights as events unfold.</p>
+                    </article>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and Popper
+
+.js -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
+
